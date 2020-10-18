@@ -1,0 +1,36 @@
+.et-headers {
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 0px 0px 8px #999999;
+    &-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 12px 20px;
+        .et-headers-left {
+            display: flex;
+            align-items: center;
+            img {
+                width: 160px;
+                height: 30px;
+            }
+        }
+        .et-headers-right {
+            display: flex;
+            justify-content: flex-end;
+            &-ul {
+                display: flex;
+                list-style: none;
+                li {
+                    padding: 0px 20px;
+                    .et-headers-link {   
+                        font-size: 18px;
+                        font-weight: bold;                    
+                        text-decoration: none;
+                        color: #111111;
+                    }
+                }
+            }
+        }
+    }
+}

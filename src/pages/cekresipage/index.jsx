@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CekResiPage() {
     return (
-        <div>
+        <div className="et-content">
             Cek Resi Page
         </div>
     )

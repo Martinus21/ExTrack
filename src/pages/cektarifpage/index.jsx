@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CekTarifPage() {
     return (
-        <div>
+        <div className="et-content">
             Cek Tarif Page
         </div>
     )
